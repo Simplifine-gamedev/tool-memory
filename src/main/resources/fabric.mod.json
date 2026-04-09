@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tool-memory",
+  "version": "1.0.0",
+  "name": "Tool Memory",
+  "description": "Tools gain experience from usage and get better over time. Mining earns XP per block type, combat earns XP per mob type.",
+  "authors": ["ali77sina"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.orca.toolmemory.ToolMemoryMod"]
+  },
+  "mixins": ["tool-memory.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

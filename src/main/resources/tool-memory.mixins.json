@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.orca.toolmemory.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MiningSpeedMixin",
+    "AttackEntityMixin",
+    "TooltipMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
